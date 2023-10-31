@@ -1,209 +1,84 @@
-Конечно, ниже представлено пример Readme файла для вашего Discord-бота. Этот файл поможет пользователям и коллегам понять, как использовать и настроить вашего бота. Вы можете разместить его в корне вашего репозитория на GitHub.
+ ## FasTask - Discord Bot for Simplified Trello Card Creation
 
-markdown
-Copy code
-# Название вашего Discord-бота
+FasTask is a Discord bot designed to streamline the process of recording and creating Trello cards for requests within your tech department. It not only simplifies the request submission but also provides monitoring capabilities for better task management.
 
-Краткое описание вашего Discord-бота.
+### Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Languages](#languages)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Описание
+### Description
 
-Этот бот создан для [указать цель вашего бота, например, упрощения управления Trel# Your Discord Bot's Name
+FasTask, your personal assistant in Discord, makes it effortless to create Trello cards for tech-related requests. By using predefined commands, FasTask allows you to quickly record your requests and monitors their status, enhancing collaboration and task management.
 
-Brief description of your Discord bot.
+### Installation
 
-## Description
+To install FasTask on your operating system, follow these steps:
 
-This bot is created for [state the purpose of your bot, e.g., streamlining Trello management through Discord]. The bot features [mention functionality, e.g., creating Trello cards based on Discord messages].
+**Windows:**
 
-## Requirements
+1. Download the latest release from the [GitHub repository](https://github.com/your-repository-link).
+2. Run the installer and follow the on-screen instructions.
 
-Before using this bot, make sure you have the following components installed:
+**macOS:**
 
-- Python [Python version, e.g., 3.7]
-- [Other dependencies if any]
+1. Use Homebrew to install FasTask:
+   ```bash
+   brew tap your-repository-link
+   brew install fastask
+   ```
 
-## Installation
+**Linux:**
 
-1. Clone the repository:
+1. Clone the GitHub repository and navigate to the project directory:
+   ```bash
+   git clone your-repository-link
+   cd FasTask
+   ```
+2. Run the installer script:
+   ```bash
+   ./install.sh
+   ```
 
-   ```shell
-   git clone https://github.com/yourusername/your-bot-repo.git
-Change to the project directory:
+### Configuration
 
-shell
-Copy code
-cd your-bot-repo
-Create a virtual environment (recommended):
+Before using FasTask, you need to configure it by setting up your environment variables and Discord token:
 
-shell
-Copy code
-python -m venv venv
-Activate the virtual environment:
+1. Create a `.env` file and add your environment variables, including Trello API credentials and Discord token.
 
-On Windows:
-shell
-Copy code
-venv\Scripts\activate
-On macOS and Linux:
-shell
-Copy code
-source venv/bin/activate
-Install dependencies:
+   ```
+   URL=your-trello-api-url
+   API_KEY=your-trello-api-key
+   TOKEN=your-trello-token
+   ID=your-trello-list-id
+   TOKEN_DISCORD=your-discord-bot-token
+   ```
 
-shell
-Copy code
-pip install -r requirements.txt
-Create a .env file and fill it with your data:
+2. Save the `.env` file in the root directory of your FasTask installation.
 
-makefile
-Copy code
-URL=Trello API URL
-API_KEY=Trello API Key
-TOKEN=Trello Token
-ID=Trello List ID
-TOKEN_DISCORD=Discord Bot Token
-Run the bot:
+### Usage
 
-shell
-Copy code
-python bot.py
-Usage
-To use the bot, you need to [explain how users can invoke commands and what each command does]. For example:
+FasTask responds to the following commands:
 
-!hello: Greets the user.
-!tch [card name] [card description]: Creates a new Trello card with the specified name and description.
-Authors
-[Your name]
-[Other contributors if any]
-License
-This project is licensed under [state the type and provide a link to the license, if necessary].
+- `!hello`: Bot responds with a friendly "Hello."
+- `!tch <title> <description>`: Creates a Trello card with the specified title and description. The card will be added to the designated Trello list.
 
-shell
-Copy code
+### Languages
 
-**На русском (Russian)**
+FasTask supports two languages for user interaction:
 
-```markdown
-# Название вашего Discord-бота
+**English:** The default language.
 
-Краткое описание вашего Discord-бота.
+**Russian:** To switch to Russian language commands, use `!lang ru`. To switch back to English, use `!lang en`.
 
-## Описание
+### Contributing
 
-Этот бот создан для [указать цель вашего бота, например, упрощения управления Trello через Discord]. Бот обладает функциональностью [указать функциональность, например, создание карточек в Trello на основе сообщений в Discord].
+If you'd like to contribute to FasTask, please follow the guidelines in our [Contributing](CONTRIBUTING.md) document.
 
-## Требования
+### License
 
-Перед использованием этого бота, убедитесь, что у вас установлены следующие компоненты:
-
-- Python [версия Python, например, 3.7]
-- [Другие зависимости, если есть]
-
-## Установка
-
-1. Склонируйте репозиторий:
-
-   ```shell
-   git clone https://github.com/yourusername/your-bot-repo.git
-Перейдите в директорию с проектом:
-
-shell
-Copy code
-cd your-bot-repo
-Создайте виртуальное окружение (рекомендуется):
-
-shell
-Copy code
-python -m venv venv
-Активируйте виртуальное окружение:
-
-В Windows:
-shell
-Copy code
-venv\Scripts\activate
-В macOS и Linux:
-shell
-Copy code
-source venv/bin/activate
-Установите зависимости:
-
-shell
-Copy code
-pip install -r requirements.txt
-Создайте файл .env и заполните его данными:
-
-makefile
-Copy code
-URL=Trello API URL
-API_KEY=Trello API Key
-TOKEN=Trello Token
-ID=Trello List ID
-TOKEN_DISCORD=Discord Bot Token
-Запустите бота:
-
-shell
-Copy code
-python bot.py
-Использование
-Чтобы использовать бота, вам нужно [указать, как пользователи могут вызывать команды и что каждая команда делает]. Например:
-
-!hello: Приветствует пользователя.
-!tch [название карточки] [описание карточки]: Создает новую карточку в Trello с указанным названием и описанием.lo через Discord]. Бот обладает функциональностью [указать функциональность, например, создание карточек в Trello на основе сообщений в Discord].
-
-## Требования
-
-Перед использованием этого бота, убедитесь, что у вас установлены следующие компоненты:
-
-- Python [версия Python от версии 3.7 до 3.11.3]
-
-## Установка
-
-1. Склонируйте репозиторий:
-
-   ```shell
-   git clone https://github.com/yourusername/your-bot-repo.git
-Перейдите в директорию с проектом:
-
-shell
-Copy code
-cd your-bot-repo
-Создайте виртуальное окружение (рекомендуется):
-
-shell
-Copy code
-python -m venv venv
-Активируйте виртуальное окружение:
-
-В Windows:
-shell
-Copy code
-venv\Scripts\activate
-В macOS и Linux:
-shell
-Copy code
-source venv/bin/activate
-Установите зависимости:
-
-shell
-Copy code
-pip install -r requirements.txt
-Создайте файл .env и заполните его данными:
-
-makefile
-Copy code
-URL=Trello API URL
-API_KEY=Trello API Key
-TOKEN=Trello Token
-ID=Trello List ID
-TOKEN_DISCORD=Discord Bot Token
-Запустите бота:
-
-shell
-Copy code
-python bot.py
-Использование
-Чтобы использовать бота, вам нужно [указать, как пользователи могут вызывать команды и что каждая команда делает]. Например:
-
-!hello: Приветствует пользователя.
-!tch [название карточки] [описание карточки]: Создает новую карточку в Trello с указанным названием и описанием.
+FasTask is open-source software released under the [MIT License](LICENSE). Feel free to modify and distribute it as needed.
