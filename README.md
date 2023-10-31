@@ -55,8 +55,10 @@ Discord_TrelloBot responds to the following commands:
 
 - `!hello`: Bot responds with a friendly "Hello."
 - `!tch <title> <description>`: Creates a Trello card with the specified title and description. The card will be added to the designated Trello list.
-
 ---
+
+<img width="483" alt="image" src="https://github.com/SakeXYZ/Discord_TrelloBot/assets/55310909/410bce0b-fec4-4c6f-aed7-b63e87683a7f">
+<img width="285" alt="image" src="https://github.com/SakeXYZ/Discord_TrelloBot/assets/55310909/0d9f3843-75c5-458f-97c5-493abb763d73">
 
 ## Discord_TrelloBot - Discord Бот для Упрощенного Создания Карточек в Trello
 
@@ -115,3 +117,9 @@ Discord_TrelloBot реагирует на следующие команды:
 
 - `!hello`: Бот отвечает дружелюбным "Hello."
 - `!tch <title> <description>`: Создает карточку Trello с указанным заголовком и описанием. Карточка будет добавлена в соответствующий список Trello.
+
+
+
+<img width="483" alt="image" src="https://github.com/SakeXYZ/Discord_TrelloBot/assets/55310909/410bce0b-fec4-4c6f-aed7-b63e87683a7f">
+<img width="285" alt="image" src="https://github.com/SakeXYZ/Discord_TrelloBot/assets/55310909/0d9f3843-75c5-458f-97c5-493abb763d73">
+
