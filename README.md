@@ -17,7 +17,7 @@ To install Discord_TrelloBot on your operating system, follow these steps:
 
 1. Use Homebrew to install Discord_TrelloBot:
    ```bash
-   brew tap your-repository-link
+   brew tap [your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot.git)
    brew install discord_trellobot
    ```
 
@@ -25,7 +25,7 @@ To install Discord_TrelloBot on your operating system, follow these steps:
 
 1. Clone the GitHub repository and navigate to the project directory:
    ```bash
-   git clone your-repository-link
+   git clone [your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot.git)
    cd Discord_TrelloBot
    ```
 2. Run the installer script:
@@ -77,7 +77,7 @@ Discord_TrelloBot - это бот для Discord, разработанный д�
 
 1. Используйте Homebrew для установки Discord_TrelloBot:
    ```bash
-   brew tap your-repository-link
+   brew tap [your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot.git)
    brew install discord_trellobot
    ```
 
@@ -85,7 +85,7 @@ Discord_TrelloBot - это бот для Discord, разработанный д�
 
 1. Клонируйте репозиторий GitHub и перейдите в директорию проекта:
    ```bash
-   git clone your-repository-link
+   git clone [your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot.git)
    cd Discord_TrelloBot
    ```
 2. Запустите скрипт установки:
