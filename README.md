@@ -1,19 +1,8 @@
- ## FasTask - Discord Bot for Simplified Trello Card Creation
-
-FasTask is a Discord bot designed to streamline the process of recording and creating Trello cards for requests within your tech department. It not only simplifies the request submission but also provides monitoring capabilities for better task management.
-
-### Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Languages](#languages)
-- [Contributing](#contributing)
-- [License](#license)
+## FasTask - Discord Bot for Simplified Trello Card Creation
 
 ### Description
 
-FasTask, your personal assistant in Discord, makes it effortless to create Trello cards for tech-related requests. By using predefined commands, FasTask allows you to quickly record your requests and monitors their status, enhancing collaboration and task management.
+FasTask is a Discord bot designed to streamline the process of recording and creating Trello cards for requests within your tech department. It not only simplifies the request submission but also provides monitoring capabilities for better task management.
 
 ### Installation
 
@@ -67,18 +56,62 @@ FasTask responds to the following commands:
 - `!hello`: Bot responds with a friendly "Hello."
 - `!tch <title> <description>`: Creates a Trello card with the specified title and description. The card will be added to the designated Trello list.
 
-### Languages
+---
 
-FasTask supports two languages for user interaction:
+## FasTask - Discord Бот для Упрощенного Создания Карточек в Trello
 
-**English:** The default language.
+### Описание
 
-**Russian:** To switch to Russian language commands, use `!lang ru`. To switch back to English, use `!lang en`.
+FasTask - это бот для Discord, разработанный для упрощения процесса записи и создания карточек в Trello для запросов в техническом отделе. Он не только упрощает подачу запросов, но также предоставляет функциональность мониторинга для более эффективного управления задачами.
 
-### Contributing
+### Установка
 
-If you'd like to contribute to FasTask, please follow the guidelines in our [Contributing](CONTRIBUTING.md) document.
+Для установки FasTask на вашу операционную систему выполните следующие шаги:
 
-### License
+**Windows:**
 
-FasTask is open-source software released under the [MIT License](LICENSE). Feel free to modify and distribute it as needed.
+1. Загрузите последнюю версию из [репозитория GitHub](https://github.com/your-repository-link).
+2. Запустите установщик и следуйте инструкциям на экране.
+
+**macOS:**
+
+1. Используйте Homebrew для установки FasTask:
+   ```bash
+   brew tap your-repository-link
+   brew install fastask
+   ```
+
+**Linux:**
+
+1. Клонируйте репозиторий GitHub и перейдите в директорию проекта:
+   ```bash
+   git clone your-repository-link
+   cd FasTask
+   ```
+2. Запустите скрипт установки:
+   ```bash
+   ./install.sh
+   ```
+
+### Настройка
+
+Перед использованием FasTask необходимо настроить его, установив переменные окружения и токен Discord:
+
+1. Создайте файл `.env` и добавьте в него переменные окружения, включая учетные данные Trello API и токен Discord.
+
+   ```
+   URL=your-trello-api-url
+   API_KEY=your-trello-api-key
+   TOKEN=your-trello-token
+   ID=your-trello-list-id
+   TOKEN_DISCORD=your-discord-bot-token
+   ```
+
+2. Сохраните файл `.env` в корневой директории установки FasTask.
+
+### Использование
+
+FasTask реагирует на следующие команды:
+
+- `!hello`: Бот отвечает дружелюбным "Hello."
+- `!tch <title> <description>`: Создает карточку Trello с указанным заголовком и описанием. Карточка будет добавлена в соответствующий список Trello.
