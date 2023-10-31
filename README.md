@@ -1,24 +1,24 @@
-## FasTask - Discord Bot for Simplified Trello Card Creation
+## Discord_TrelloBot - Discord Bot for Simplified Trello Card Creation
 
 ### Description
 
-FasTask is a Discord bot designed to streamline the process of recording and creating Trello cards for requests within your tech department. It not only simplifies the request submission but also provides monitoring capabilities for better task management.
+Discord_TrelloBot is a Discord bot designed to streamline the process of recording and creating Trello cards for requests within your tech department. It not only simplifies the request submission but also provides monitoring capabilities for better task management.
 
 ### Installation
 
-To install FasTask on your operating system, follow these steps:
+To install Discord_TrelloBot on your operating system, follow these steps:
 
 **Windows:**
 
-1. Download the latest release from the [GitHub repository]([https://github.com/your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot/archive/refs/heads/master.zip)).
+1. Download the latest release from the [GitHub repository]([https://github.com/your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot.git)).
 2. Run the installer and follow the on-screen instructions.
 
 **macOS:**
 
-1. Use Homebrew to install FasTask:
+1. Use Homebrew to install Discord_TrelloBot:
    ```bash
    brew tap your-repository-link
-   brew install fastask
+   brew install discord_trellobot
    ```
 
 **Linux:**
@@ -26,7 +26,7 @@ To install FasTask on your operating system, follow these steps:
 1. Clone the GitHub repository and navigate to the project directory:
    ```bash
    git clone your-repository-link
-   cd FasTask
+   cd Discord_TrelloBot
    ```
 2. Run the installer script:
    ```bash
@@ -35,7 +35,7 @@ To install FasTask on your operating system, follow these steps:
 
 ### Configuration
 
-Before using FasTask, you need to configure it by setting up your environment variables and Discord token:
+Before using Discord_TrelloBot, you need to configure it by setting up your environment variables and Discord token:
 
 1. Create a `.env` file and add your environment variables, including Trello API credentials and Discord token.
 
@@ -47,38 +47,38 @@ Before using FasTask, you need to configure it by setting up your environment va
    TOKEN_DISCORD=your-discord-bot-token
    ```
 
-2. Save the `.env` file in the root directory of your FasTask installation.
+2. Save the `.env` file in the root directory of your Discord_TrelloBot installation.
 
 ### Usage
 
-FasTask responds to the following commands:
+Discord_TrelloBot responds to the following commands:
 
 - `!hello`: Bot responds with a friendly "Hello."
 - `!tch <title> <description>`: Creates a Trello card with the specified title and description. The card will be added to the designated Trello list.
 
 ---
 
-## FasTask - Discord Бот для Упрощенного Создания Карточек в Trello
+## Discord_TrelloBot - Discord Бот для Упрощенного Создания Карточек в Trello
 
 ### Описание
 
-FasTask - это бот для Discord, разработанный для упрощения процесса записи и создания карточек в Trello для запросов в техническом отделе. Он не только упрощает подачу запросов, но также предоставляет функциональность мониторинга для более эффективного управления задачами.
+Discord_TrelloBot - это бот для Discord, разработанный для упрощения процесса записи и создания карточек в Trello для запросов в техническом отделе. Он не только упрощает подачу запросов, но также предоставляет функциональность мониторинга для более эффективного управления задачами.
 
 ### Установка
 
-Для установки FasTask на вашу операционную систему выполните следующие шаги:
+Для установки Discord_TrelloBot на вашу операционную систему выполните следующие шаги:
 
 **Windows:**
 
-1. Загрузите последнюю версию из [репозитория GitHub]([https://github.com/your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot/archive/refs/heads/master.zip)).
+1. Загрузите последнюю версию из [репозитория GitHub]([https://github.com/your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot.git)).
 2. Запустите установщик и следуйте инструкциям на экране.
 
 **macOS:**
 
-1. Используйте Homebrew для установки FasTask:
+1. Используйте Homebrew для установки Discord_TrelloBot:
    ```bash
    brew tap your-repository-link
-   brew install fastask
+   brew install discord_trellobot
    ```
 
 **Linux:**
@@ -86,7 +86,7 @@ FasTask - это бот для Discord, разработанный для упр
 1. Клонируйте репозиторий GitHub и перейдите в директорию проекта:
    ```bash
    git clone your-repository-link
-   cd FasTask
+   cd Discord_TrelloBot
    ```
 2. Запустите скрипт установки:
    ```bash
@@ -95,7 +95,7 @@ FasTask - это бот для Discord, разработанный для упр
 
 ### Настройка
 
-Перед использованием FasTask необходимо настроить его, установив переменные окружения и токен Discord:
+Перед использованием Discord_TrelloBot необходимо настроить его, установив переменные окружения и токен Discord:
 
 1. Создайте файл `.env` и добавьте в него переменные окружения, включая учетные данные Trello API и токен Discord.
 
@@ -107,11 +107,11 @@ FasTask - это бот для Discord, разработанный для упр
    TOKEN_DISCORD=your-discord-bot-token
    ```
 
-2. Сохраните файл `.env` в корневой директории установки FasTask.
+2. Сохраните файл `.env` в корневой директории установки Discord_TrelloBot.
 
 ### Использование
 
-FasTask реагирует на следующие команды:
+Discord_TrelloBot реагирует на следующие команды:
 
 - `!hello`: Бот отвечает дружелюбным "Hello."
 - `!tch <title> <description>`: Создает карточку Trello с указанным заголовком и описанием. Карточка будет добавлена в соответствующий список Trello.
