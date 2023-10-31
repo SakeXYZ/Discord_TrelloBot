@@ -10,7 +10,7 @@ To install FasTask on your operating system, follow these steps:
 
 **Windows:**
 
-1. Download the latest release from the [GitHub repository](https://github.com/your-repository-link).
+1. Download the latest release from the [GitHub repository]([https://github.com/your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot/archive/refs/heads/master.zip)).
 2. Run the installer and follow the on-screen instructions.
 
 **macOS:**
@@ -70,7 +70,7 @@ FasTask - это бот для Discord, разработанный для упр
 
 **Windows:**
 
-1. Загрузите последнюю версию из [репозитория GitHub](https://github.com/your-repository-link).
+1. Загрузите последнюю версию из [репозитория GitHub]([https://github.com/your-repository-link](https://github.com/SakeXYZ/Discord_TrelloBot/archive/refs/heads/master.zip)).
 2. Запустите установщик и следуйте инструкциям на экране.
 
 **macOS:**
